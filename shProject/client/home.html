@@ -1,0 +1,53 @@
+<template name = 'home'>
+  <div class = "container">
+    <div id="page-wrapper">
+      <div id="content">
+        <section id="sec-1"> <h4>-공지사항, 할인소식 ,이벤트 및 신청-</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque eu purus nec neque facilisis placerat. Fusce finibus ante interdum, lobortis elit a, ultricies elit. Phasellus at lacinia erat. Praesent ac lacus sapien. Fusce sodales nisi sed luctus facilisis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Integer mollis sed nisl ut gravida. In ac bibendum lorem. Integer at suscipit libero. In facilisis erat sit amet accumsan vulputate. Donec id dolor augue. Proin interdum vitae quam eu faucibus.
+
+            Vestibulum tempus odio quis massa rutrum, vitae bibendum lectus blandit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Maecenas vehicula urna a nibh porttitor hendrerit. In vehicula a odio at bibendum. Integer venenatis nisi nec tincidunt accumsan. Curabitur luctus, nisi quis ullamcorper aliquam, arcu libero mollis diam, vitae condimentum magna eros tempus est. Duis facilisis lacinia lacus ac sollicitudin. Cras fringilla arcu nec risus egestas eleifend. Integer vestibulum arcu id elit eleifend, a lacinia risus dapibus. Duis eu rutrum augue. Ut sit amet ante nec leo consequat mollis. Fusce eu nulla lorem. In blandit pretium urna ac imperdiet. Vestibulum egestas tortor a risus consectetur pretium. In rutrum, massa eget fermentum dignissim, tellus tortor suscipit lorem, ut congue augue urna sagittis velit. Sed vehicula sem turpis, a pulvinar est blandit ut.
+
+            In hac habitasse platea dictumst. Vivamus mauris dolor, pharetra ac nulla non, hendrerit consectetur turpis. Donec nec tempus massa, nec fermentum neque. Pellentesque placerat et tortor sit amet facilisis. Phasellus velit mi, finibus quis elit nec, egestas dignissim ante. Nulla vitae ultricies nunc. Morbi varius urna libero, a sollicitudin risus cursus id. Curabitur tempus nibh vel ante efficitur, nec dignissim ligula condimentum. Integer euismod elit velit, id scelerisque lorem fermentum vel. Fusce ornare odio quis lacus varius, in accumsan sem scelerisque. Duis suscipit sed lacus sit amet dignissim. Etiam eget dapibus justo. Aliquam magna metus, elementum non nibh quis, ultrices fermentum ante.
+
+            Fusce nec tellus gravida, laoreet nisl vel, pretium nunc. Aenean sapien nibh, dictum vel varius ut, feugiat et nibh. Donec consectetur et ipsum id varius. Sed commodo eu urna eget eleifend. Mauris aliquet velit euismod mauris tincidunt lacinia. Sed placerat ex vitae euismod auctor. Quisque nec blandit est, ac pharetra tellus. Praesent aliquam mattis pellentesque. Duis id erat sed est mattis varius vitae pretium lacus.</p>
+        </section>
+        <aside id="login">
+          {{#if currentUser}}
+            <form class="form-inline">
+              <div class="form-group">
+                <b>{{email}}</b>
+                <button id="Logout" class="btn btn-warning">Logout</button>
+              </div>
+            </form>
+          {{else}}
+            <h1 class="login">로그인</h1>
+            <br/>
+            <form>
+              <table>
+                <tr>
+                  <td><label for="id">ID</label></td>
+                  <td><input id="id" type="text"></td>
+                  <td rowspan="2"><Button id="submit" class="btn btn-primary">로그인</Button></td>
+                </tr>
+                <tr>
+                  <td><label for="pw">PW</label></td>
+                  <td><input id="pw" type="password"></td>
+                </tr>
+              </table>
+              <br/>
+              <br/>
+              <table>
+                <tr>
+                  <td><a class="button" href="#"> &nbsp;ID/PW찾기&nbsp; </a></td>
+                  <td><a class="button" href="join"> &nbsp;회원가입 &nbsp;</a></td>
+                </tr>
+              </table>
+            </form>
+          {{/if}}
+        </aside>
+      </div>
+      <br/>
+      <br/>
+    </div>
+  </div>
+</template>

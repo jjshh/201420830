@@ -1,0 +1,30 @@
+<template name = "discount">
+<head>
+	  <title></title>
+    <script>
+      var date = new Date();
+      var hours = date.getHours();
+      if (hours < 9){
+        alert('XXX 이벤트 시간이 종료되었습니다 XXX');
+      } else {
+        alert('OOO 이벤트 중입니다 OOO');
+      }
+    </script>
+</head>
+<body>
+  <div id="page-wrapper">
+      <div id="product">
+         <div id="hot1"><img src="images/hot.jpg"></div>
+         <div id="hot2"><img src="images/hotchicken.jpg"></div>
+         <div id="hot3"><img src="images/chicken.jpg"></div>
+         <div id="hot4"><img src="images/egg.jpg"></div>
+         <div id="hot5"><img src="images/tigim.jpg"></div>
+         <div id="book1"><img src="images/book1.jpg"></div>
+         <div id="book2"><img src="images/book2.jpg"></div>
+         <div id="movie1"><img src="images/movie1.jpg"></div>
+         <div id="movie2"><img src="images/movie2.jpg"></div>
+         <div id="snack"><img src="images/snack.jpg"></div>
+      </div>
+  </div>
+</body>
+</template>

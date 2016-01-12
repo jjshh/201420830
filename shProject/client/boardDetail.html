@@ -1,0 +1,17 @@
+<template name="boardDetail">
+  <img src="images/meteor.png" alt=""/>
+  <div class="well">
+    {{#with userObj}}
+    글번호: {{글번호}}<br>
+    작성자: {{작성자}}<br>
+    <article>
+      <header>
+        {{제목}}
+      </header>
+      <main>
+        {{본문}}
+      </main>
+    </article>
+    {{/with}}
+  </div>
+</template>

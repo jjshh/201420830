@@ -1,0 +1,20 @@
+* {margin: 0; padding: 0;}
+body {margin: 70px auto; width: 960px;}
+#page-wrapper {background-color: white;}
+#product {overflow: hidden;}
+#product div {width: 150px; height: 200px;
+
+    margin: 10px 18px 50px 18px;
+    float: left;
+    border-bottom: 2px solid #c8e2e5;
+    }
+#hot1 {overflow: hidden;}
+#hot2 {overflow: hidden;}
+#hot3 {overflow: hidden;}
+#hot4 {overflow: hidden;}
+#hot5 {overflow: hidden;}
+#book1 {overflow: hidden;}
+#book2 {overflow: hidden;}
+#movie1 {overflow: hidden;}
+#movie2 {overflow: hidden;}
+#snack {overflow: hidden;}

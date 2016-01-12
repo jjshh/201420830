@@ -1,0 +1,27 @@
+* {margin: 0; padding: 0;}
+body {margin: 70px auto; width: 960px;}
+#page-wrapper {background-color: white;}
+#content {overflow: hidden;}
+#sec-1 {width: 600px; height: 300px;
+    margin: 15px 30px;
+    border: 2px solid #c8e2e5;
+    float: left;
+    overflow-y: scroll;}
+h4 {font-weight: bolder;
+    text-align: center;}
+#login {width: 250px; height: 300px;
+    margin: 15px;
+    border: 2px solid #c8e2e5;
+    float: left;}
+.login {text-align: center;
+    margin: 30px auto;}
+#content table {margin: 0 7px;}
+#id:focus {background-color: gray;}
+#pw:focus {background-color: gray;}
+#submit {height: 40px;}
+.button {width: 100px; height: 20px;
+    background-color: white;
+    text-decoration: none;
+    color: black;
+    margin: 10px;
+    box-shadow: 5px 5px 5px black;}

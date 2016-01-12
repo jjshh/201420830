@@ -1,0 +1,21 @@
+nav {width: 940px; height: 50px;
+    margin: 25px 10px 25px 10px;
+    border: 2px ;
+    overflow: hidden;
+    background-color: #c8e2e5;}
+nav li {list-style: none;
+    float: left;
+    line-height: 25px;
+    margin: 0 10px;}
+nav a {text-decoration: none;
+    color: white;
+    font-family: fantasy;
+    font-size: 2em;}
+a:hover {color: #61898b;
+    text-shadow: 0 3px 3px gray;
+    text-decoration: none;}
+nav input {float: right;}
+.searchbar-1 {margin: 20px 0;
+    vertical-align: middle;}
+.searchbar-2 {margin: 20px;
+    vertical-align: middle;}
